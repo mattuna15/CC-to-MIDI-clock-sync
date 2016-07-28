@@ -22,7 +22,7 @@ this should be 6. adjust accordingly. PPQN*DIVIDE_SLICE=24 */
 Arduino clock and/or cosmic rays. This setting lost about 10ms over 5 minutes using trigger from a DR-110
 MIDI Clock in on a Yamaha RY-10, with an RBBB using an ATMega168 and resonator clock. YM_W_V.
 */
-#define CODE_OVERHEAD_TIME 25
+#define CODE_OVERHEAD_TIME 10
 
 volatile int trigger=0;
 volatile unsigned long triggertime=0;
