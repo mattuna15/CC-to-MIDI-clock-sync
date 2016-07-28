@@ -1,5 +1,6 @@
 /*   CC to MIDI Clock Sync.    Reads a specific Midi CC # every 1/16, counts the time, divides it by 6 and returns midi sync commands
- Charles Hobbs 2016 */
+derived from : http://www.glacialcommunications.com/news/2009/12/arduino-trigger-to-midi-converter/   
+Charles Hobbs 2016  */
 
 
 
