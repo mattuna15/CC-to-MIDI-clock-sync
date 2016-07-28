@@ -75,8 +75,6 @@ void loop() {
     }
     
     if (started==1){  
-     //in the world of STOP_TIMEOUT, is the next line needed?
-     // if(timeslice > 1000) {timeslice=1000;}
       now=millis();  //I'm not convinved millis is an atomic-ish operation...
       
       if (now >= nextsync){
@@ -88,10 +86,6 @@ void loop() {
 
 
 void syncSignal(char cmd){
- // if(debug){
- // Serial.print("sync:");
- // Serial.println(millis());
-  //} else {
-  Serial.print(cmd);// Serial.print(cmd, BYTE);   =original line
- //} 
+ 
+  Serial.print(cmd);
 }  
